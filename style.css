@@ -1,0 +1,141 @@
+/* =============================
+   ESTILO GERAL DO SITE
+   ============================= */
+body {
+  font-family: Arial, sans-serif;
+  background: #fffbea;
+  color: #333;
+  margin: 0;
+  line-height: 1.6;
+}
+
+/* =============================
+   CABEÇALHO / BANNER
+   ============================= */
+header {
+  text-align: center;
+  padding: 0;
+  background: none; /* remove a cor de fundo */
+}
+
+header img {
+  max-width: 100%;  /* imagem ocupa toda a largura da tela */
+  height: auto;     /* mantém proporção */
+  display: block;   /* evita espaços extras */
+}
+
+/* =============================
+   SEÇÕES DE CONTEÚDO
+   ============================= */
+section {
+  padding: 20px 15px;
+  max-width: 900px;
+  margin: auto;
+}
+section h2 {
+  color: #e6b800;
+  margin-bottom: 15px;
+}
+
+/* =============================
+   LISTA DE OBJETIVOS
+   ============================= */
+.objetivos ul {
+  list-style: disc;
+  padding-left: 20px;
+}
+
+/* =============================
+   CARDS DE APOIO
+   ============================= */
+.cards {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.card {
+  background: #fff9d6;
+  border-radius: 8px;
+  padding: 20px;
+  flex: 1 1 250px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+.card h3 {
+  margin-top: 0;
+  color: #cc9900;
+}
+
+/* =============================
+   GALERIA DE IMAGENS
+   ============================= */
+.galeria {
+  text-align: center;
+}
+.grid-galeria {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 15px;
+  margin-top: 20px;
+}
+.grid-galeria img {
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+.grid-galeria img:hover {
+  transform: scale(1.05);
+}
+
+/* =============================
+   FORMULÁRIO
+   ============================= */
+form {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+label {
+  display: block;
+  margin-top: 15px;
+}
+input, textarea, button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 1em;
+}
+button {
+  background: #e6b800;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-top: 15px;
+}
+button:hover {
+  background: #cc9900;
+}
+
+/* =============================
+   RODAPÉ
+   ============================= */
+footer {
+  background: #e6b800;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 30px;
+}
+
+/* =============================
+   LACINHO SETEMBRO AMARELO
+   ============================= */
+.lacinho {
+  width: 500px;          /* controla o tamanho */
+  margin: 20px auto;     /* dá espaço em cima/baixo e centraliza */
+  display: block;        /* garante que fique sozinho na linha */
+}
+
